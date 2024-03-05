@@ -2,7 +2,7 @@
 
 clear
 
-if [ ! $(id) -eq 0 ]
+if [ ! $(id -u) -eq 0 ]
 then
  echo "Debe Ejecutar este script, como root"
  exit 1
