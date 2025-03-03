@@ -27,7 +27,7 @@ chage -l web01
 echo ""
 echo "Info de minlen"
 grep minlen /etc/pam.d/common-password
-echo "Debe tratar de cambiar la contraseña del usuario ops01 a galileo1, recuedo ingresar su contraseña actual"
+echo "Debe tratar de cambiar la contraseña del usuario ops01 a galileo1, recuede ingresar su contraseña actual"
 su - ops01 -c passwd
 echo "Debe mostrar un mensaje que no cumple con el tamaño solicitado"
 
